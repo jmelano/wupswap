@@ -4,14 +4,14 @@ export const Help = () => {
 
     <div className="w-full justify-center flex">
       <div className="w-full max-w-5xl flex flex-col text-left px-4">
-        <div className="text-4xl font-thin py-8 uppercase text-center">
+      <div className="text-4xl font-black py-8 uppercase text-center tracking-widest text-[#658191]">
           Help
         </div>
         <div className="flex w-full flex-col items-center">
-          <div className="bg-white text-sm p-6 rounded-lg w-full max-w-lg justify-center flex flex-col">
+        <div className=" bg-gradient-to-r from-[#16273a] to-[#05162e] text-sm p-6 rounded-lg w-full max-w-4xl justify-center flex flex-col border border-transparent  border-[#061224] shadow-2xl ">
             <div className="w-full">
               <div className="flex flex-col w-full text-left">
-                <div className="text-lg py-2 text-stone-800">Maker Side</div>
+                <div className="text-lg py-2 text-white">Maker Side</div>
                 <div className="text-sm  text-stone-400">
                   Go to the swap tab, then:
                   <ul className="py-4">
@@ -25,7 +25,7 @@ export const Help = () => {
                 </div>
               </div>
               <div className="flex flex-col w-full text-left border-t mt-8 pt-6">
-                <div className="text-lg py-2 text-stone-800">Taker Side</div>
+                <div className="text-lg py-2 text-white">Taker Side</div>
                 <div className="text-sm text-stone-400">
                   <ul className="py-4">
                     <li>1. Visit your Orders, Open Orders and find orders with CONFIRM status</li>

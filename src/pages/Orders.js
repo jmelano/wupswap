@@ -6,12 +6,12 @@ export const Orders = () => {
   return (
     <div className="w-full justify-center flex">
       <div className="w-full max-w-5xl flex flex-col text-left px-4">
-        <div className="text-4xl font-thin py-8 uppercase text-center">
+      <div className="text-4xl font-black py-8 uppercase text-center tracking-widest text-[#658191]">
           Orders
         </div>
         <Tab.Group>
           <div className="flex w-full flex-col items-center">
-            <Tab.List className="flex items-center gap-1 justify-center w-full max-w-lg text-center" role="group">
+            <Tab.List className="flex items-center gap-1 justify-center w-full max-w-4xl opacity-70 text-center" role="group">
               <Tab as={Fragment}>
                 {({ selected }) => (
                   <button
@@ -35,7 +35,7 @@ export const Orders = () => {
                 )}
               </Tab>
             </Tab.List>
-            <div className="bg-white text-sm p-6 rounded-b-lg border-stone-200 border border-t-0 w-full max-w-lg justify-center flex flex-col">
+            <div className="bg-white text-sm p-6 rounded-b-lg border-stone-200 border border-t-0 w-full max-w-4xl justify-center flex flex-col opacity-70">
               <Tab.Panels>
                 <Tab.Panel>
                   <div className="w-full">

@@ -7,7 +7,7 @@ import { Home } from "./pages/Home";
 
 function App() {
   return (
-    <div className="bg-stone-100 flex flex-col overflow-y-scroll h-screen">
+    <div className="bg-hero-pattern flex flex-col overflow-y-scroll h-screen font-press-start">
       <Nav />
       <Home />
     </div>

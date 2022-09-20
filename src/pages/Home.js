@@ -8,15 +8,15 @@ export const Home = () => {
 
   return (
 
-    <div className="w-full justify-center flex flex-1 relative bg-stone-100 ">
+    <div className="w-full justify-center flex flex-1 relative " >
       <div className="w-full max-w-5xl flex flex-col text-left p-0">
         <Tab.Group>
-          <Tab.List className="inline-flex justify-center w-full" role="group">
+          <Tab.List className="inline-flex justify-center w-full " role="group">
             <Tab as={Fragment}>
               {({ selected }) => (
                 <button
                   className={
-                    selected ? 'bg-stone-400 text-white border-stone-400 flex align-middle shadow-sm py-2 px-4 text-xs font-medium border border-l-0 border-r-0 rounded-l-md uppercase outline-0' : 'bg-white text-stone-900 flex align-middle shadow-sm py-2 px-4 text-xs font-medium border border-stone-200 border-r-0 rounded-l-md uppercase'
+                    selected ? 'bg-[#243c4a] text-white border-[#658191] flex align-middle shadow-sm py-2 px-4 text-xs font-medium border border-l border-r-0 rounded-l-sm uppercase outline-0 tracking-widest' : 'bg-[#45606f] text-stone-900 flex align-middle shadow-sm py-2 px-4 text-xs font-medium border border-[#658191] border-r-0 rounded-l-sm uppercase tracking-widest'
                   }
                 >
                   Swap
@@ -27,7 +27,7 @@ export const Home = () => {
               {({ selected }) => (
                 <button
                   className={
-                    selected ? 'bg-stone-400 text-white border-stone-400 flex align-middle shadow-sm py-2 px-4 text-xs font-medium border  border-l-0 border-r-0 uppercase outline-0' : 'bg-white text-stone-900 flex align-middle shadow-sm py-2 px-4 text-xs font-medium border border-stone-200 border-l-0 border-r-0 uppercase'
+                    selected ? 'bg-[#243c4a] text-white border-[#658191] flex align-middle shadow-sm py-2 px-4 text-xs font-medium border  border-l-0 border-r-0 uppercase outline-0 tracking-widest' : 'bg-[#45606f] text-[#061224] flex align-middle shadow-sm py-2 px-4 text-xs font-medium border border-[#658191] border-l-0 border-r-0 uppercase tracking-widest'
                   }
                 >
                   Orders
@@ -38,7 +38,7 @@ export const Home = () => {
               {({ selected }) => (
                 <button
                   className={
-                    selected ? 'bg-stone-400 text-white border-stone-400 flex align-middle shadow-sm py-2 px-4 text-xs font-medium border border-l-0 rounded-r-md uppercase outline-0' : 'bg-white text-stone-900 flex align-middle shadow-sm py-2 px-4 text-xs font-medium border border-stone-200 border-l-0 rounded-r-md uppercase'
+                    selected ? 'bg-[#243c4a] text-white border-[#658191] flex align-middle shadow-sm py-2 px-4 text-xs font-medium border border-l-0 rounded-r-sm uppercase outline-0 tracking-widest' : 'bg-[#45606f] text-[#061224] flex align-middle shadow-sm py-2 px-4 text-xs font-medium border border-[#658191] border-l-0 rounded-r-sm uppercase tracking-widest'
                   }
                 >
                   Help
